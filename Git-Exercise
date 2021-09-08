@@ -1,0 +1,13 @@
+// Create a local repository and add and commit some files
+> mkdir stutern-precourse && cd stutern-precourse
+> echo "Commiting from sadiq branch" > first.txt
+> git init
+> git add first.txt
+> git commit -m "initial commit"
+
+// Create a remote repository and push your code from the local repo to the remote
+> git remote add origin https://github.com/saslamp/stutern-precourse
+> git push -u origin main
+
+// Fork the repo https://github.com/rithmschool/git_practice - clone it and submit a pull request
+> Link to my pull request: https://github.com/rithmschool/git_practice/pull/339
