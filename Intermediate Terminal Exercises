@@ -1,0 +1,29 @@
+Part I
+
+1. export FIRST_NAME=Sadiq
+2. echo $FIRST_NAME
+3. echo $PATH
+4. The path variable is a set of paths for our environment to find where to run commands
+5. For using variables to store information securely which can be reused
+6. Save them in either your .bash_profile or .zshrc, depending on which you are using
+7. A process is a specific computer program that is currently running
+8. ps -ax
+9. PID is a process' identification number
+10. You can terminate a process using "kill" or "kill -9"
+11. Kill is used to terminate a process, while kill -9 also terminates a process but the command is carried out by force
+12. -i
+13. -B
+14. -C
+15. -A
+16. -w
+17. -n
+
+Part II
+
+1. find ~/Desktop -name "learn"
+2. find ~/Desktop -name "P.*"
+3. find ~/Desktop -name "*.txt"
+4. find ~/Desktop/views -name "*data*"
+5. grep -c "Elie" instructors.txt
+6. grep -w "P.*" instructors.txt
+7. grep -ni "z.*" instructors.txt
