@@ -1,0 +1,23 @@
+
+Part I
+
+1. touch restricted.txt
+2. chmod 600 restricted.txt
+3. chmod a+rwx restricted.txt
+4. a) mkdir secret_files
+   b) cd secret_files
+   c) touch first_secret.txt
+   d) mkdir classified
+   e) cd classified
+   f) touch super_secret.txt
+5. chmod -R 770 secret_files
+6. ln restricted.txt hard_link
+7. ln -s classified classified_link
+
+Part II
+
+1. sort vegetables.txt
+2. wc -l vegetables.txt
+3. cat vegetables.txt | sort | uniq > vegetables_sorted
+4. cat vegetables.txt | tail -n 3 > last_three.txt
+5. cat vegetables.txt | grep "Broccoli" | wc -l
